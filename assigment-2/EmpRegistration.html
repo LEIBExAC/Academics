@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Employee Registration</title>
+  </head>
+  <body>
+    <h2>Employee Registration Form</h2>
+    <form method="post">
+      <label>Full Name:</label>
+      <input type="text" name="name" required /><br /><br />
+
+      <label>Email:</label>
+      <input type="email" name="email" required /><br /><br />
+
+      <label>Phone:</label>
+      <input type="tel" name="phone" required /><br /><br />
+
+      <label>Department:</label>
+      <select name="department">
+        <option>HR</option>
+        <option>IT</option>
+        <option>Finance</option>
+        <option>Marketing</option></select
+      ><br /><br />
+
+      <label>Gender:</label>
+      <input type="radio" name="gender" value="Male" /> Male
+      <input type="radio" name="gender" value="Female" /> Female<br /><br />
+
+      <label>Resume:</label>
+      <input type="file" name="resume" /><br /><br />
+
+      <input type="submit" value="Register" />
+    </form>
+  </body>
+</html>
