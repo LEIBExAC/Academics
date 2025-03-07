@@ -21,7 +21,6 @@ body {
     display: block;
     padding: 15px 20px;
     color: #2b2a2ac7;
-    /* text-decoration: none; */
   }
 
   .main-menu > li > a:hover {
@@ -100,8 +99,20 @@ body {
   padding: 2rem;
   width: 100%;
   height: 90%;
+  /* position: relative;
+  left: 0; */
   /* animation: carousel 50s infinite normal; */
+  /* animation: left-shift 40s ease-in infinite; */
 }
+
+/* @keyframes left-shift {
+  0%{
+    left: 0;
+  }
+  100%{
+    left: -800%;
+  }
+} */
 
 /*
 @keyframes carousel {
@@ -158,7 +169,7 @@ body {
 }
 
 .be-first-year-section  a,
-.be-first-year-section  p, .right-section  a, .right-section  p {
+.be-first-year-section  p, .right-section  a, .right-section  p, .heading{
   font-weight: 700;
   font-size: 0.85rem;
   padding: 0.5rem;
@@ -168,10 +179,22 @@ body {
   color: #ED0E0E;
 }
 
-.quick-links-section li{
+.quick-links-section li, .aboutus li{
   padding-top: 0.45rem;
   padding-bottom: 0.25rem;
 }
+
 .quick-links-data{
   font-size: small;
+}
+
+ /* {
+  padding: 0.85rem;
+} */
+
+
+/** aboutus Page*/
+
+.aboutus{
+  min-width: 20%;
 }

@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="../src/output.css" rel="stylesheet" />
+    <link rel="stylesheet" href="../src/style.css" />
+    <title>College Website</title>
+    <!-- <script src="../src/script.js"></script> -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+
+  <body>
+    <header>
+      <div
+        class="head h-36 bg-red-900 flex items-center justify-center p-4 px-12"
+      >
+        <div
+          class="head-container flex items-center justify-center w-screen flex-wrap"
+        >
+          <div
+            class="head-logo h-24 flex items-center justify-around shrink-0"
+          ></div>
+          <div class="head-search-input flex items-center justify-center">
+            <input
+              type="text"
+              placeholder="Search"
+              class="bg-amber-50 rounded-sm p-2"
+            />
+          </div>
+        </div>
+      </div>
+
+      <div class="nav-panel">
+        <div class="nav-list-item h-14 flex items-center justify-center">
+          <nav class="z-10">
+            <ul class="main-menu">
+              <li><a href="./index.html">Home</a></li>
+
+              <li><a href="./aboutdavv.html">About Us</a></li>
+
+              <li class="dropdown">
+                <a href="#"
+                  >Academics
+                  <i class="fa-solid fa-caret-down"></i>
+                </a>
+
+                <ul class="dropdown-menu bg-white">
+                  <li class="dropdown">
+                    <a href="#"
+                      >Programs
+                      <i class="fa-solid fa-chevron-right"></i>
+                    </a>
+                    <ul class="dropdown-menu bg-white">
+                      <li><a href="./programs-offered.html">Programs Offered</a></li>
+                      <li><a href="./program-outcome.html">Program Outcome</a></li>
+                    </ul>
+                  </li>
+
+                  <li class="dropdown">
+                    <a href="#"
+                      >Calender
+                      <i class="fa-solid fa-chevron-right"></i>
+                    </a>
+                    <ul class="dropdown-menu bg-white">
+                      <li><a href="#">l Yr Calender</a></li>
+                      <li><a href="#">ll Yr Onwards</a></li>
+                    </ul>
+                  </li>
+
+                  <li class="dropdown">
+                    <a href="#"
+                      >Schedules
+                      <i class="fa-solid fa-chevron-right"></i>
+                    </a>
+                    <ul class="dropdown-menu bg-white">
+                      <li class="dropdown">
+                        <a href="#"
+                          >Class
+                          <i class="fa-solid fa-chevron-right"></i>
+                        </a>
+                        <ul class="dropdown-menu bg-white">
+                          <li><a href="#">BE l Yr Class Time-Table</a></li>
+                          <li><a href="#">BE llYr-IVYr Class Time-Table</a></li>
+                          <li><a href="#">ME Class Time-Table</a></li>
+                          <li><a href="#">MSc/BEPTDC Class TT</a></li>
+                        </ul>
+                      </li>
+
+                      <li class="dropdown">
+                        <a href="#"
+                          >Test
+                          <i class="fa-solid fa-chevron-right"></i>
+                        </a>
+                        <ul class="dropdown-menu bg-white">
+                          <li><a href="#">BTech l Year</a></li>
+                          <li><a href="#">BE l Year</a></li>
+                          <li><a href="#">BE llYr-IVYr/ MSc</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+
+                  <li class="dropdown">
+                    <a href="#"
+                      >Downloads
+                      <i class="fa-solid fa-chevron-right"></i>
+                    </a>
+                    <ul class="dropdown-menu bg-white">
+                      <li><a href="#">Project Documents</a></li>
+                      <li><a href="#">Forms</a></li>
+                    </ul>
+                  </li>
+
+                  <li class="dropdown">
+                    <a href="#"
+                      >Syllabus
+                      <i class="fa-solid fa-chevron-right"></i>
+                    </a>
+                    <ul class="dropdown-menu bg-white">
+                      <li><a href="#">CBCS Scheme</a></li>
+                      <li><a href="#">Old Scheme</a></li>
+                    </ul>
+                  </li>
+
+                  <li><a href="#">Notices</a></li>
+                </ul>
+              </li>
+
+              <li class="dropdown">
+                <a href="#"
+                  >Admission
+                  <i class="fa-solid fa-caret-down"></i>
+                </a>
+                <ul class="dropdown-menu bg-white">
+                  <div class="dropdown-menu-div flex p-4">
+                    <div class="p-4">
+                      <li><a href="#">CBCS Scheme</a></li>
+                      <li><a href="#">Intake Capacity</a></li>
+                      <li><a href="#">BE Intake Capacity</a></li>
+                      <li><a href="#">ME Intake Capacity</a></li>
+                    </div>
+                    <div class="p-4">
+                      <li><a href="#">Roll List</a></li>
+                      <li><a href="#">Roll-List l Year</a></li>
+                      <li><a href="#">Enrollment List</a></li>
+                    </div>
+                  </div>
+                </ul>
+              </li>
+
+              <li><a href="#">People</a></li>
+
+              <li class="dropdown">
+                <a href="#"
+                  >Activities
+                  <i class="fa-solid fa-caret-down"></i>
+                </a>
+                <ul class="dropdown-menu bg-white">
+                  <li><a href="#">GDSC</a></li>
+                  <li><a href="#">IET-sletter</a></li>
+                  <li><a href="#">Live@IET</a></li>
+                  <li><a href="#">NSS</a></li>
+                </ul>
+              </li>
+
+              <li class="dropdown">
+                <a href="#"
+                  >Examination
+                  <i class="fa-solid fa-caret-down"></i>
+                </a>
+                <ul class="dropdown-menu bg-white">
+                  <li class="dropdown">
+                    <a href="#"
+                      >Exam Time Table
+                      <i class="fa-solid fa-chevron-right"></i>
+                      <ul class="dropdown-menu bg-white">
+                        <li><a href="#">BE l Year</a></li>
+                        <li><a href="#">BE llYr-lVYr/ BEPTDC /MSc</a></li>
+                        <li><a href="#">BTech l Year</a></li>
+                      </ul>
+                    </a>
+                  </li>
+                  <li><a href="#">Practical Exam Time Table</a></li>
+                  <li><a href="#">Exam Notices</a></li>
+                </ul>
+              </li>
+
+              <li class="dropdown">
+                <a href="#"
+                  >Tender
+                  <i class="fa-solid fa-caret-down"></i>
+                </a>
+
+                <ul class="dropdown-menu bg-white">
+                  <li><a href="#">Close Tender Enquiry</a></li>
+                </ul>
+              </li>
+
+              <li><a href="#">Reach Us</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <section>
+      <div class="hero-section w-auto">
+        <div class="hero-carousel flex items-center justify-center">
+          <div class="carousel-container flex items-center justify-center">
+            <div class="carousel flex items-center">
+              <div class="carousel-item">
+                <img src="../src/carousel-images/01.png" alt="Image 1" />
+              </div>
+
+              <div class="carousel-item">
+                <img src="../src/carousel-images/02.png" alt="Image 2" />
+              </div>
+
+              <div class="carousel-item">
+                <img src="../src/carousel-images/03.png" alt="Image 3" />
+              </div>
+
+              <div class="carousel-item">
+                <img src="../src/carousel-images/04.png" alt="Image 4" />
+              </div>
+
+              <div class="carousel-item">
+                <img src="../src/carousel-images/05.png" alt="Image 5" />
+              </div>
+
+              <div class="carousel-item">
+                <img src="../src/carousel-images/06.png" alt="Image 6" />
+              </div>
+
+              <div class="carousel-item">
+                <img src="../src/carousel-images/07.png" alt="Image 7" />
+              </div>
+
+              <div class="carousel-item">
+                <img src="../src/carousel-images/08.png" alt="Image 8" />
+              </div>
+
+              <div class="carousel-item">
+                <img src="../src/carousel-images/09.png" alt="Image 9" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="main-section flex justify-center gap-12 p-12 overflow-x-hidden"
+      >
+        <div class="left-section">
+          <div class="left-section-container">
+            <div class="highlights-section mx-10">
+              <div class="highlights-header bg-red-700 text-white p-1 pl-5">
+                <h2 class=""><b>HIGHLIGHTS</b></h2>
+              </div>
+
+              <div
+                class="highlights-data flex items-center justify-evenly bg-gray-100 border-gray-400 border-1 p-2 gap-4"
+              >
+                <div class="data">
+                  <p class="text-sm text-red-500 m-1">
+                    <b>Vision-Misssion IET</b>
+                  </p>
+                  <div
+                    class="data-image border-1 border-gray-400 bg-white p-0.5 m-1"
+                  >
+                    <a href="#"
+                      ><img src="../src/hightlights/01.png" alt=""
+                    /></a>
+                  </div>
+                </div>
+
+                <div class="data">
+                  <p class="text-sm text-red-500 m-1">
+                    <b>Program Outcomes</b>
+                  </p>
+                  <div
+                    class="data-image border-1 border-gray-400 bg-white p-0.5 m-1"
+                  >
+                    <a href="#"
+                      ><img src="../src/hightlights/02.png" alt=""
+                    /></a>
+                  </div>
+                </div>
+
+                <div class="data">
+                  <p class="text-sm text-red-500 m-1">
+                    <b>Vision-Misssion IET</b>
+                  </p>
+                  <div
+                    class="data-image border-1 border-gray-400 bg-white p-0.5 m-1"
+                  >
+                    <a href="#"
+                      ><img src="../src/hightlights/03.png" alt=""
+                    /></a>
+                  </div>
+                </div>
+
+                <div class="data">
+                  <p class="text-sm text-red-500 m-1">
+                    <b>IET STRATEGIC PLAN</b>
+                  </p>
+                  <div
+                    class="data-image border-1 border-gray-400 bg-white p-0.5 m-1"
+                  >
+                    <a href="#"
+                      ><img src="../src/hightlights/04.png" alt=""
+                    /></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="flex justify-center gap-10 p-12">
+              <div class="be-first-year-section border-1 border-gray-400">
+                <div>
+                  <h2 class="bg-red-700 text-white p-1 pl-4">
+                    <b>BE l YEAR</b>
+                  </h2>
+                  <div
+                    class="be-first-year-section-image border-1 border-gray-400"
+                  >
+                    <img src="../src/freshers.png" alt="" />
+                  </div>
+                  <div class="border-1 border-gray-400 bg-gray-100 p-4">
+                    <a href="#">BTech I Year Test timetable</a>
+                    <p>(March-2025)</p>
+                    <p>**********************************</p>
+
+                    <a href="#">BE I Year Test timetable</a>
+                    <p>(March-2025)</p>
+
+                    <p>**********************************</p>
+
+                    <a href="#">BE / BTech I Year Class Time-table</a>
+                    <p>(for February-June-2025)</p>
+                    <p>**********************************</p>
+
+                    <a href="#">BE I Year Scheme & Syllabus</a>
+                    <p>(for Session 2024-25)</p>
+                    <p>**********************************</p>
+
+                    <a href="#"> Notice Regarding Whatsapp group</a>
+                    <p>(for BE I Year students)</p>
+
+                    <p>**********************************</p>
+
+                    <a href="#">B.E. / B.Tech. I Year Academic Calender</a>
+                    <p>(for session 2024-25)</p>
+                    <p>**********************************</p>
+
+                    <a href="#">Mentor-list for session 2024-25</a>
+                    <p>(for BE I year- IV year students)</p>
+                    <p>**********************************</p>
+
+                    <a href="#">BE I Year Section-List</a>
+                    <p>(for Session 2024-25)</p>
+                    <p>**********************************</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="navigation-section flex-col items-start">
+                <div class="navigation-section-image my-3">
+                  <img src="../src/navigation-images/01.png" alt="" />
+                </div>
+                <div class="navigation-section-image my-3">
+                  <img src="../src/navigation-images/02.png" alt="" />
+                </div>
+                <div class="navigation-section-image my-3">
+                  <img src="../src/navigation-images/03.png" alt="" />
+                </div>
+                <div class="navigation-section-image my-3">
+                  <img src="../src/navigation-images/04.png" alt="" />
+                </div>
+                <div class="navigation-section-image my-3">
+                  <img src="../src/navigation-images/05.png" alt="" />
+                </div>
+                <div class="navigation-section-image my-3">
+                  <img src="../src/navigation-images/06.png" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="right-section bg-gray-100 border-1 border-gray-400">
+          <div class="iet-news-section">
+            <h2 class="text-white bg-red-700 p-1 pl-4"><b>LATEST@IET</b></h2>
+          </div>
+          <div class="p-4">
+            <a href="#"> Examination Results Nov-Dec-2024</a>
+            <p>(for BTech I Year students)</p>
+
+            <p>**********************************</p>
+            <a href="#">Examination Results Nov-Dec-2024</a>
+            <p>(for BE I Year EX students)</p>
+
+            <p>**********************************</p>
+            <a href="#">Test Time-table March-2025</a>
+            <p>(for BTech I Year students)</p>
+
+            <p>**********************************</p>
+            <a href="#">Test Time-table March-2025</a>
+            <p>(for BE I Year students)</p>
+
+            <p>**********************************</p>
+            <a href="#">Notice regarding observation of answer-books</a>
+            <p>(for BE II Year / III Year / IVYear students)</p>
+
+            <p>**********************************</p>
+            <a href="#">Class time-table-Dec 2024-May2025</a>
+            <p>(BE II Year- IV Year Students)</p>
+
+            <p>**********************************</p>
+            <a href="#">BE / BTech I Year Class time-table</a>
+            <p>(for February-June 2025)</p>
+
+            <p>**********************************</p>
+
+            <a href="#">Notice Regarding Whatsapp group</a>
+            <p>(for BE I Year students)</p>
+
+            <p>**********************************</p>
+            <a href="#">BE I Year Section-List</a>
+            <p>(for session 2024-25)</p>
+
+            <p>**********************************</p>
+            <a href="#">B.E./ B.Tech I Year Academic Calender</a>
+            <p>(for session 2024-25)</p>
+
+            <p>**********************************</p>
+            <a href="#">Notice for Ph.D. Students</a>
+            <p>(IET-DET-2023)</p>
+
+            <p>**********************************</p>
+            <a href="#">Guidelines for admission through DTE system</a>
+            <p>(for BE I Year students)</p>
+
+            <p>**********************************</p>
+            <a href="#">Academic Calender-2024-25</a>
+            <p>(for BE / ME / PTDC / MSc students)</p>
+
+            <p>**********************************</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="quick-links-section p-16">
+        <div class="border-1 border-gray-400 bg-gray-100">
+          <div class="quick-links-header">
+            <h2 class="bg-red-700 text-white p-1 pl-4"><b>QUICK LINKS</b></h2>
+          </div>
+          <div class="quick-links-data flex items-center justify-evenly p-4">
+            <ul>
+              <li>
+                <a href="#"> <b>IET-DAVV ACM Student Chapter</b></a>
+              </li>
+              <li>
+                <a href="#"><b>Mandatory Disclosure</b></a>
+              </li>
+              <li>
+                <a href="#"><b>Apply for CLC/Provisional Degree</b></a>
+              </li>
+            </ul>
+
+            <ul>
+              <li>
+                <a href="#"> <b>Student Feedback</b></a>
+              </li>
+              <li>
+                <a href="#"><b>Spoken Tutorial</b></a>
+              </li>
+              <li>
+                <a href="#"><b>Ishare</b></a>
+              </li>
+            </ul>
+
+            <ul>
+              <li>
+                <a href="#"> <b>Administration</b></a>
+              </li>
+              <li>
+                <a href="#"><b>University Website</b></a>
+              </li>
+              <li>
+                <a href="#"><b>Antiragging</b></a>
+              </li>
+            </ul>
+
+            <ul>
+              <li>
+                <a href="#"> <b>Contact Directory</b></a>
+              </li>
+              <li>
+                <a href="#"><b>E-Books</b></a>
+              </li>
+              <li>
+                <a href="#"><b>Forms</b></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="w-full overflow-x-hidden">
+      <div class="footer-description">
+        <pre class="text-white bg-red-700 pt-3 text-center">
+            © 2024 IET DAVV. All Rights Reserved.
+            Made with 💙
+          </pre
+        >
+      </div>
+      <div class="contact-us"></div>
+    </footer>
+  </body>
+</html>
+  
