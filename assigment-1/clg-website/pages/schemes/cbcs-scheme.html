@@ -1,0 +1,825 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="../../src/output.css" rel="stylesheet" />
+    <link rel="stylesheet" href="../../src/style.css" />
+    <title>CBCS Scheme</title>
+    <!-- <script src="../src/script.js"></script> -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+
+  <body>
+    <header>
+      <div
+        class="head h-36 bg-red-900 flex items-center justify-center p-4 px-12"
+      >
+        <div
+          class="head-container flex items-center justify-center w-screen flex-wrap"
+        >
+          <div
+            class="head-logo h-24 flex items-center justify-around shrink-0"
+          ></div>
+          <div class="head-search-input flex items-center justify-center">
+            <input
+              type="text"
+              placeholder="Search"
+              class="bg-amber-50 rounded-sm p-2"
+            />
+          </div>
+        </div>
+      </div>
+
+      <div class="nav-panel">
+        <div class="nav-list-item h-14 flex items-center justify-center">
+          <nav class="z-10">
+            <ul class="main-menu">
+              <li><a href="./index.html">Home</a></li>
+
+              <li><a href="./aboutdavv.html">About Us</a></li>
+
+              <li class="dropdown">
+                <a href="#"
+                  >Academics
+                  <i class="fa-solid fa-caret-down"></i>
+                </a>
+
+                <ul class="dropdown-menu bg-white">
+                  <li class="dropdown">
+                    <a href="#"
+                      >Programs
+                      <i class="fa-solid fa-chevron-right"></i>
+                    </a>
+                    <ul class="dropdown-menu bg-white">
+                      <li>
+                        <a href="./programs-offered.html">Programs Offered</a>
+                      </li>
+                      <li>
+                        <a href="./program-outcome.html">Program Outcome</a>
+                      </li>
+                    </ul>
+                  </li>
+
+                  <li class="dropdown">
+                    <a href="#"
+                      >Calender
+                      <i class="fa-solid fa-chevron-right"></i>
+                    </a>
+                    <ul class="dropdown-menu bg-white">
+                      <li>
+                        <a href="./i-year-calender.html">l Yr Calender</a>
+                      </li>
+                      <li>
+                        <a href="./ii-year-onwards.html">ll Yr Onwards</a>
+                      </li>
+                    </ul>
+                  </li>
+
+                  <li class="dropdown">
+                    <a href="#"
+                      >Schedules
+                      <i class="fa-solid fa-chevron-right"></i>
+                    </a>
+                    <ul class="dropdown-menu bg-white">
+                      <li class="dropdown">
+                        <a href="#"
+                          >Class
+                          <i class="fa-solid fa-chevron-right"></i>
+                        </a>
+                        <ul class="dropdown-menu bg-white">
+                          <li><a href="#">BE l Yr Class Time-Table</a></li>
+                          <li><a href="#">BE llYr-IVYr Class Time-Table</a></li>
+                          <li><a href="#">ME Class Time-Table</a></li>
+                          <li><a href="#">MSc/BEPTDC Class TT</a></li>
+                        </ul>
+                      </li>
+
+                      <li class="dropdown">
+                        <a href="#"
+                          >Test
+                          <i class="fa-solid fa-chevron-right"></i>
+                        </a>
+                        <ul class="dropdown-menu bg-white">
+                          <li><a href="#">BTech l Year</a></li>
+                          <li><a href="#">BE l Year</a></li>
+                          <li><a href="#">BE llYr-IVYr/ MSc</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+
+                  <li class="dropdown">
+                    <a href="#"
+                      >Downloads
+                      <i class="fa-solid fa-chevron-right"></i>
+                    </a>
+                    <ul class="dropdown-menu bg-white">
+                      <li><a href="#">Project Documents</a></li>
+                      <li><a href="#">Forms</a></li>
+                    </ul>
+                  </li>
+
+                  <li class="dropdown">
+                    <a href="#"
+                      >Syllabus
+                      <i class="fa-solid fa-chevron-right"></i>
+                    </a>
+                    <ul class="dropdown-menu bg-white">
+                      <li><a href="#">CBCS Scheme</a></li>
+                      <li><a href="#">Old Scheme</a></li>
+                    </ul>
+                  </li>
+
+                  <li><a href="#">Notices</a></li>
+                </ul>
+              </li>
+
+              <li class="dropdown">
+                <a href="#"
+                  >Admission
+                  <i class="fa-solid fa-caret-down"></i>
+                </a>
+                <ul class="dropdown-menu bg-white">
+                  <div class="dropdown-menu-div flex p-4">
+                    <div class="p-4">
+                      <li><a href="#">CBCS Scheme</a></li>
+                      <li><a href="#">Intake Capacity</a></li>
+                      <li><a href="#">BE Intake Capacity</a></li>
+                      <li><a href="#">ME Intake Capacity</a></li>
+                    </div>
+                    <div class="p-4">
+                      <li><a href="#">Roll List</a></li>
+                      <li><a href="#">Roll-List l Year</a></li>
+                      <li><a href="#">Enrollment List</a></li>
+                    </div>
+                  </div>
+                </ul>
+              </li>
+
+              <li><a href="#">People</a></li>
+
+              <li class="dropdown">
+                <a href="#"
+                  >Activities
+                  <i class="fa-solid fa-caret-down"></i>
+                </a>
+                <ul class="dropdown-menu bg-white">
+                  <li><a href="#">GDSC</a></li>
+                  <li><a href="#">IET-sletter</a></li>
+                  <li><a href="#">Live@IET</a></li>
+                  <li><a href="#">NSS</a></li>
+                </ul>
+              </li>
+
+              <li class="dropdown">
+                <a href="#"
+                  >Examination
+                  <i class="fa-solid fa-caret-down"></i>
+                </a>
+                <ul class="dropdown-menu bg-white">
+                  <li class="dropdown">
+                    <a href="#"
+                      >Exam Time Table
+                      <i class="fa-solid fa-chevron-right"></i>
+                      <ul class="dropdown-menu bg-white">
+                        <li><a href="#">BE l Year</a></li>
+                        <li><a href="#">BE llYr-lVYr/ BEPTDC /MSc</a></li>
+                        <li><a href="#">BTech l Year</a></li>
+                      </ul>
+                    </a>
+                  </li>
+                  <li><a href="#">Practical Exam Time Table</a></li>
+                  <li><a href="#">Exam Notices</a></li>
+                </ul>
+              </li>
+
+              <li class="dropdown">
+                <a href="#"
+                  >Tender
+                  <i class="fa-solid fa-caret-down"></i>
+                </a>
+
+                <ul class="dropdown-menu bg-white">
+                  <li><a href="#">Close Tender Enquiry</a></li>
+                </ul>
+              </li>
+
+              <li><a href="#">Reach Us</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <section>
+      <div
+        class="main-section flex flex-col items-center gap-10 p-14 text-neutral-900 justify-center"
+      >
+        <h1 class="text-3xl font-bold text-center">
+          Schemes & Syllabus for B.E. 4ydc Program
+        </h1>
+        <div class="flex justify-between items-center mt-4">
+          <span class="text-lg font-semibold"
+            >BE I Year Scheme & Syllabus 2025</span
+          >
+          <button class="bg-gray-200 p-2 rounded flex items-center ml-4">
+            <i class="fa-solid fa-download mr-2"></i> DOWNLOAD
+          </button>
+        </div>
+        <table
+          class="table-auto w-full mt-6 border-collapse border border-gray-300"
+        >
+          <thead>
+            <tr class="bg-gray-200">
+              <th class="border border-gray-300 p-2">Department</th>
+              <th class="border border-gray-300 p-2" colspan="8">
+                Schemes & Syllabus
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="bg-gray-100">
+              <td class="border border-gray-300 p-2"></td>
+              <td class="border border-gray-300 p-2" colspan="2">I Year</td>
+              <td class="border border-gray-300 p-2" colspan="2">II Year</td>
+              <td class="border border-gray-300 p-2" colspan="2">III Year</td>
+              <td class="border border-gray-300 p-2" colspan="2">IV Year</td>
+            </tr>
+            <tr>
+              <td class="border border-gray-300 p-2">Computer Engineering</td>
+              <td class="border border-gray-300 p-2">
+                <a href="#" class="text-blue-600">SEM I</a>
+              </td>
+              <td class="border border-gray-300 p-2">
+                <a href="#" class="text-blue-600">SEM II</a>
+              </td>
+              <td class="border border-gray-300 p-2">
+                <a href="#" class="text-blue-600">SEM III</a>
+              </td>
+              <td class="border border-gray-300 p-2">
+                <a href="#" class="text-blue-600">SEM IV</a>
+              </td>
+              <td class="border border-gray-300 p-2">
+                <a href="#" class="text-blue-600">SEM V</a>
+              </td>
+              <td class="border border-gray-300 p-2">
+                <a href="#" class="text-blue-600">SEM VI</a>
+              </td>
+              <td class="border border-gray-300 p-2">
+                <a href="#" class="text-blue-600">SEM VII</a>
+              </td>
+              <td class="border border-gray-300 p-2">
+                <a href="#" class="text-blue-600">SEM VIII</a>
+              </td>
+            </tr>
+            <tr class="bg-gray-100">
+              <td class="border border-gray-300 p-2">Information Technology</td>
+              <td class="border border-gray-300 p-2">
+                <a href="#" class="text-blue-600">SEM I</a>
+              </td>
+              <td class="border border-gray-300 p-2">
+                <a href="#" class="text-blue-600">SEM II</a>
+              </td>
+              <td class="border border-gray-300 p-2">
+                <a href="#" class="text-blue-600">SEM III</a>
+              </td>
+              <td class="border border-gray-300 p-2">
+                <a href="#" class="text-blue-600">SEM IV</a>
+              </td>
+              <td class="border border-gray-300 p-2">
+                <a href="#" class="text-blue-600">SEM V</a>
+              </td>
+              <td class="border border-gray-300 p-2">
+                <a href="#" class="text-blue-600">SEM VI</a>
+              </td>
+              <td class="border border-gray-300 p-2">
+                <a href="#" class="text-blue-600">SEM VII</a>
+              </td>
+              <td class="border border-gray-300 p-2">
+                <a href="#" class="text-blue-600">SEM VIII</a>
+              </td>
+            </tr>
+            <tr>
+              <td class="border border-gray-300 p-2">
+                Electronics & Telecommunication Engineering
+              </td>
+              <td class="border border-gray-300 p-2">
+                <a href="#" class="text-blue-600">SEM I</a>
+              </td>
+              <td class="border border-gray-300 p-2">
+                <a href="#" class="text-blue-600">SEM II</a>
+              </td>
+              <td class="border border-gray-300 p-2">
+                <a href="#" class="text-blue-600">SEM III</a>
+              </td>
+              <td class="border border-gray-300 p-2">
+                <a href="#" class="text-blue-600">SEM IV</a>
+              </td>
+              <td class="border border-gray-300 p-2">
+                <a href="#" class="text-blue-600">SEM V</a>
+              </td>
+              <td class="border border-gray-300 p-2">
+                <a href="#" class="text-blue-600">SEM VI</a>
+              </td>
+              <td class="border border-gray-300 p-2">
+                <a href="#" class="text-blue-600">SEM VII</a>
+              </td>
+              <td class="border border-gray-300 p-2">
+                <a href="#" class="text-blue-600">SEM VIII</a>
+              </td>
+            </tr>
+            <tr class="bg-gray-100">
+              <td class="border border-gray-300 p-2">
+                Electronics & Instrumentation Engineering
+              </td>
+              <td class="border border-gray-300 p-2">
+                <a href="#" class="text-blue-600">SEM I</a>
+              </td>
+              <td class="border border-gray-300 p-2">
+                <a href="#" class="text-blue-600">SEM II</a>
+              </td>
+              <td class="border border-gray-300 p-2">
+                <a href="#" class="text-blue-600">SEM III</a>
+              </td>
+              <td class="border border-gray-300 p-2">
+                <a href="#" class="text-blue-600">SEM IV</a>
+              </td>
+              <td class="border border-gray-300 p-2">
+                <a href="#" class="text-blue-600">SEM V</a>
+              </td>
+              <td class="border border-gray-300 p-2">
+                <a href="#" class="text-blue-600">SEM VI</a>
+              </td>
+              <td class="border border-gray-300 p-2">
+                <a href="#" class="text-blue-600">SEM VII</a>
+              </td>
+              <td class="border border-gray-300 p-2">
+                <a href="#" class="text-blue-600">SEM VIII</a>
+              </td>
+            </tr>
+            <tr>
+              <td class="border border-gray-300 p-2">Mechanical Engineering</td>
+              <td class="border border-gray-300 p-2">
+                <a href="#" class="text-blue-600">SEM I</a>
+              </td>
+              <td class="border border-gray-300 p-2">
+                <a href="#" class="text-blue-600">SEM II</a>
+              </td>
+              <td class="border border-gray-300 p-2">
+                <a href="#" class="text-blue-600">SEM III</a>
+              </td>
+              <td class="border border-gray-300 p-2">
+                <a href="#" class="text-blue-600">SEM IV</a>
+              </td>
+              <td class="border border-gray-300 p-2">
+                <a href="#" class="text-blue-600">SEM V</a>
+              </td>
+              <td class="border border-gray-300 p-2">
+                <a href="#" class="text-blue-600">SEM VI</a>
+              </td>
+              <td class="border border-gray-300 p-2">
+                <a href="#" class="text-blue-600">SEM VII</a>
+              </td>
+              <td class="border border-gray-300 p-2">
+                <a href="#" class="text-blue-600">SEM VIII</a>
+              </td>
+            </tr>
+            <tr class="bg-gray-100">
+              <td class="border border-gray-300 p-2">Civil Engineering</td>
+              <td class="border border-gray-300 p-2">
+                <a href="#" class="text-blue-600">SEM I</a>
+              </td>
+              <td class="border border-gray-300 p-2">
+                <a href="#" class="text-blue-600">SEM II</a>
+              </td>
+              <td class="border border-gray-300 p-2">
+                <a href="#" class="text-blue-600">SEM III</a>
+              </td>
+              <td class="border border-gray-300 p-2">
+                <a href="#" class="text-blue-600">SEM IV</a>
+              </td>
+              <td class="border border-gray-300 p-2">
+                <a href="#" class="text-blue-600">SEM V</a>
+              </td>
+              <td class="border border-gray-300 p-2">
+                <a href="#" class="text-blue-600">SEM VI</a>
+              </td>
+              <td class="border border-gray-300 p-2">
+                <a href="#" class="text-blue-600">SEM VII</a>
+              </td>
+              <td class="border border-gray-300 p-2">
+                <a href="#" class="text-blue-600">SEM VIII</a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+
+        <h1 class="text-3xl font-bold mt-5 text-center">
+          Schemes & Syllabus for B.E. PTDC Program
+        </h1>
+        <table class="table-auto w-full border-collapse border border-gray-300">
+          <thead>
+            <tr class="bg-gray-200">
+              <th class="border border-gray-300 p-2">Department</th>
+              <th class="border border-gray-300 p-2" colspan="8">
+                Schemes & Syllabus
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="bg-gray-100">
+              <td class="border border-gray-300 p-2"></td>
+              <td class="border border-gray-300 p-2" colspan="2">I Year</td>
+              <td class="border border-gray-300 p-2" colspan="2">II Year</td>
+              <td class="border border-gray-300 p-2" colspan="2">III Year</td>
+              <td class="border border-gray-300 p-2" colspan="2">IV Year</td>
+            </tr>
+            <tr>
+              <td class="border border-gray-300 p-2">Mechanical Engineering</td>
+              <td class="border border-gray-300 p-2">
+                <a href="#" class="text-blue-600">SEM I</a>
+              </td>
+              <td class="border border-gray-300 p-2">
+                <a href="#" class="text-blue-600">SEM II</a>
+              </td>
+              <td class="border border-gray-300 p-2">
+                <a href="#" class="text-blue-600">SEM III</a>
+              </td>
+              <td class="border border-gray-300 p-2">
+                <a href="#" class="text-blue-600">SEM IV</a>
+              </td>
+              <td class="border border-gray-300 p-2">
+                <a href="#" class="text-blue-600">SEM V</a>
+              </td>
+              <td class="border border-gray-300 p-2">
+                <a href="#" class="text-blue-600">SEM VI</a>
+              </td>
+              <td class="border border-gray-300 p-2">
+                <a href="#" class="text-blue-600">SEM VII</a>
+              </td>
+              <td class="border border-gray-300 p-2">
+                <a href="#" class="text-blue-600">SEM VIII</a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+
+        <h1 class="text-3xl font-bold mt-5 text-center">
+          Schemes & Syllabus for M.E. programs
+        </h1>
+        <table class="table-auto w-full border-collapse border border-gray-300">
+          <thead>
+            <tr class="bg-gray-200">
+              <th class="border border-gray-300 p-2">Branches</th>
+              <th class="border border-gray-300 p-2" colspan="2">Full-Time</th>
+              <th class="border border-gray-300 p-2" colspan="3">Part-Time</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="bg-gray-100">
+              <td class="border border-gray-300 p-2"></td>
+              <td class="border border-gray-300 p-2">I YEAR</td>
+              <td class="border border-gray-300 p-2">II YEAR</td>
+              <td class="border border-gray-300 p-2">I YEAR</td>
+              <td class="border border-gray-300 p-2">II YEAR</td>
+              <td class="border border-gray-300 p-2">III YEAR</td>
+            </tr>
+            <tr>
+              <td class="border border-gray-300 p-2" rowspan="2">
+                Computer Engineering specialization in Software Engineering
+              </td>
+              <td class="border border-gray-300 p-2">
+                <a href="#" class="text-blue-600">SEM I</a>
+              </td>
+              <td class="border border-gray-300 p-2">
+                <a href="#" class="text-blue-600">SEM III</a>
+              </td>
+              <td class="border border-gray-300 p-2">
+                <a href="#" class="text-blue-600">SEM I</a>
+              </td>
+              <td class="border border-gray-300 p-2">
+                <a href="#" class="text-blue-600">SEM III</a>
+              </td>
+              <td class="border border-gray-300 p-2">
+                <a href="#" class="text-blue-600">SEM V</a>
+              </td>
+            </tr>
+            <tr>
+              <td class="border border-gray-300 p-2">
+                <a href="#" class="text-blue-600">SEM II</a>
+              </td>
+              <td class="border border-gray-300 p-2">
+                <a href="#" class="text-blue-600">SEM IV</a>
+              </td>
+              <td class="border border-gray-300 p-2">
+                <a href="#" class="text-blue-600">SEM II</a>
+              </td>
+              <td class="border border-gray-300 p-2">
+                <a href="#" class="text-blue-600">SEM IV</a>
+              </td>
+              <td class="border border-gray-300 p-2">
+                <a href="#" class="text-blue-600">SEM IV</a>
+              </td>
+            </tr>
+            <tr class="bg-gray-100">
+              <td class="border border-gray-300 p-2" rowspan="2">
+                Information Technology specialization in Information Security
+              </td>
+              <td class="border border-gray-300 p-2">
+                <a href="#" class="text-blue-600">SEM I</a>
+              </td>
+              <td class="border border-gray-300 p-2">
+                <a href="#" class="text-blue-600">SEM III</a>
+              </td>
+              <td class="border border-gray-300 p-2">
+                <a href="#" class="text-blue-600">SEM I</a>
+              </td>
+              <td class="border border-gray-300 p-2">
+                <a href="#" class="text-blue-600">SEM III</a>
+              </td>
+              <td class="border border-gray-300 p-2">
+                <a href="#" class="text-blue-600">SEM V</a>
+              </td>
+            </tr>
+            <tr>
+              <td class="border border-gray-300 p-2">
+                <a href="#" class="text-blue-600">SEM II</a>
+              </td>
+              <td class="border border-gray-300 p-2">
+                <a href="#" class="text-blue-600">SEM IV</a>
+              </td>
+              <td class="border border-gray-300 p-2">
+                <a href="#" class="text-blue-600">SEM II</a>
+              </td>
+              <td class="border border-gray-300 p-2">
+                <a href="#" class="text-blue-600">SEM IV</a>
+              </td>
+              <td class="border border-gray-300 p-2">
+                <a href="#" class="text-blue-600">SEM IV</a>
+              </td>
+            </tr>
+            <tr>
+              <td class="border border-gray-300 p-2" rowspan="2">
+                Electronics & Instrumentation Engineering specialization in
+                Digital Instrumentation
+              </td>
+              <td class="border border-gray-300 p-2">
+                <a href="#" class="text-blue-600">SEM I</a>
+              </td>
+              <td class="border border-gray-300 p-2">
+                <a href="#" class="text-blue-600">SEM III</a>
+              </td>
+              <td class="border border-gray-300 p-2">
+                <a href="#" class="text-blue-600">SEM I</a>
+              </td>
+              <td class="border border-gray-300 p-2">
+                <a href="#" class="text-blue-600">SEM III</a>
+              </td>
+              <td class="border border-gray-300 p-2">
+                <a href="#" class="text-blue-600">SEM V</a>
+              </td>
+            </tr>
+            <tr>
+              <td class="border border-gray-300 p-2">
+                <a href="#" class="text-blue-600">SEM II</a>
+              </td>
+              <td class="border border-gray-300 p-2">
+                <a href="#" class="text-blue-600">SEM IV</a>
+              </td>
+              <td class="border border-gray-300 p-2">
+                <a href="#" class="text-blue-600">SEM II</a>
+              </td>
+              <td class="border border-gray-300 p-2">
+                <a href="#" class="text-blue-600">SEM IV</a>
+              </td>
+              <td class="border border-gray-300 p-2">
+                <a href="#" class="text-blue-600">SEM IV</a>
+              </td>
+            </tr>
+            <tr class="bg-gray-100">
+              <td class="border border-gray-300 p-2" rowspan="2">
+                Electronics & Telecommunication Engineering specialization in
+                Digital Communication
+              </td>
+              <td class="border border-gray-300 p-2">
+                <a href="#" class="text-blue-600">SEM I</a>
+              </td>
+              <td class="border border-gray-300 p-2">
+                <a href="#" class="text-blue-600">SEM III</a>
+              </td>
+              <td class="border border-gray-300 p-2">
+                <a href="#" class="text-blue-600">SEM I</a>
+              </td>
+              <td class="border border-gray-300 p-2">
+                <a href="#" class="text-blue-600">SEM III</a>
+              </td>
+              <td class="border border-gray-300 p-2">
+                <a href="#" class="text-blue-600">SEM V</a>
+              </td>
+            </tr>
+            <tr>
+              <td class="border border-gray-300 p-2">
+                <a href="#" class="text-blue-600">SEM II</a>
+              </td>
+              <td class="border border-gray-300 p-2">
+                <a href="#" class="text-blue-600">SEM IV</a>
+              </td>
+              <td class="border border-gray-300 p-2">
+                <a href="#" class="text-blue-600">SEM II</a>
+              </td>
+              <td class="border border-gray-300 p-2">
+                <a href="#" class="text-blue-600">SEM IV</a>
+              </td>
+              <td class="border border-gray-300 p-2">
+                <a href="#" class="text-blue-600">SEM IV</a>
+              </td>
+            </tr>
+            <tr>
+              <td class="border border-gray-300 p-2" rowspan="2">
+                Mechanical Engineering specialization in Industrial Engineering
+                & Management
+              </td>
+              <td class="border border-gray-300 p-2">
+                <a href="#" class="text-blue-600">SEM I</a>
+              </td>
+              <td class="border border-gray-300 p-2">
+                <a href="#" class="text-blue-600">SEM III</a>
+              </td>
+              <td class="border border-gray-300 p-2">
+                <a href="#" class="text-blue-600">SEM I</a>
+              </td>
+              <td class="border border-gray-300 p-2">
+                <a href="#" class="text-blue-600">SEM III</a>
+              </td>
+              <td class="border border-gray-300 p-2">
+                <a href="#" class="text-blue-600">SEM V</a>
+              </td>
+            </tr>
+            <tr>
+              <td class="border border-gray-300 p-2">
+                <a href="#" class="text-blue-600">SEM II</a>
+              </td>
+              <td class="border border-gray-300 p-2">
+                <a href="#" class="text-blue-600">SEM IV</a>
+              </td>
+              <td class="border border-gray-300 p-2">
+                <a href="#" class="text-blue-600">SEM II</a>
+              </td>
+              <td class="border border-gray-300 p-2">
+                <a href="#" class="text-blue-600">SEM IV</a>
+              </td>
+              <td class="border border-gray-300 p-2">
+                <a href="#" class="text-blue-600">SEM IV</a>
+              </td>
+            </tr>
+            <tr class="bg-gray-100">
+              <td class="border border-gray-300 p-2" rowspan="2">
+                Mechanical Engineering specialization in Design & Thermal
+                Engineering
+              </td>
+              <td class="border border-gray-300 p-2">
+                <a href="#" class="text-blue-600">SEM I</a>
+              </td>
+              <td class="border border-gray-300 p-2">
+                <a href="#" class="text-blue-600">SEM III</a>
+              </td>
+              <td class="border border-gray-300 p-2">
+                <a href="#" class="text-blue-600">SEM I</a>
+              </td>
+              <td class="border border-gray-300 p-2">
+                <a href="#" class="text-blue-600">SEM III</a>
+              </td>
+              <td class="border border-gray-300 p-2">
+                <a href="#" class="text-blue-600">SEM V</a>
+              </td>
+            </tr>
+            <tr>
+              <td class="border border-gray-300 p-2">
+                <a href="#" class="text-blue-600">SEM II</a>
+              </td>
+              <td class="border border-gray-300 p-2">
+                <a href="#" class="text-blue-600">SEM IV</a>
+              </td>
+              <td class="border border-gray-300 p-2">
+                <a href="#" class="text-blue-600">SEM II</a>
+              </td>
+              <td class="border border-gray-300 p-2">
+                <a href="#" class="text-blue-600">SEM IV</a>
+              </td>
+              <td class="border border-gray-300 p-2">
+                <a href="#" class="text-blue-600">SEM IV</a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+
+        <h1 class="text-3xl font-bold mt-5 text-center">
+          Schemes & Syllabus for M.Sc. (Applied Mathematics) program
+        </h1>
+        <table
+          class="table-auto w-full border-collapse border border-gray-300 mt-6"
+        >
+          <tbody>
+            <tr class="bg-gray-200">
+              <td class="border border-gray-300 p-2" rowspan="2">
+                M.Sc. (Applied Mathematics) with specialization in Computing and
+                Informatics
+              </td>
+              <th class="border border-gray-300 p-2" colspan="2">I YEAR</th>
+              <th class="border border-gray-300 p-2" colspan="2">II YEAR</th>
+            </tr>
+            <tr class="bg-gray-100">
+              <td class="border border-gray-300 p-2">
+                <a href="#" class="text-blue-600">SEM I</a>
+              </td>
+              <td class="border border-gray-300 p-2">
+                <a href="#" class="text-blue-600">SEM II</a>
+              </td>
+              <td class="border border-gray-300 p-2">
+                <a href="#" class="text-blue-600">SEM III</a>
+              </td>
+              <td class="border border-gray-300 p-2">
+                <a href="#" class="text-blue-600">SEM IV</a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <div class="quick-links-section p-16">
+      <div class="border-1 border-gray-400 bg-gray-100">
+        <div class="quick-links-header">
+          <h2 class="bg-red-700 text-white p-1 pl-4"><b>QUICK LINKS</b></h2>
+        </div>
+        <div class="quick-links-data flex items-center justify-evenly p-4">
+          <ul>
+            <li>
+              <a href="#"> <b>IET-DAVV ACM Student Chapter</b></a>
+            </li>
+            <li>
+              <a href="#"><b>Mandatory Disclosure</b></a>
+            </li>
+            <li>
+              <a href="#"><b>Apply for CLC/Provisional Degree</b></a>
+            </li>
+          </ul>
+
+          <ul>
+            <li>
+              <a href="#"> <b>Student Feedback</b></a>
+            </li>
+            <li>
+              <a href="#"><b>Spoken Tutorial</b></a>
+            </li>
+            <li>
+              <a href="#"><b>Ishare</b></a>
+            </li>
+          </ul>
+
+          <ul>
+            <li>
+              <a href="#"> <b>Administration</b></a>
+            </li>
+            <li>
+              <a href="#"><b>University Website</b></a>
+            </li>
+            <li>
+              <a href="#"><b>Antiragging</b></a>
+            </li>
+          </ul>
+
+          <ul>
+            <li>
+              <a href="#"> <b>Contact Directory</b></a>
+            </li>
+            <li>
+              <a href="#"><b>E-Books</b></a>
+            </li>
+            <li>
+              <a href="#"><b>Forms</b></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <footer class="w-full overflow-x-hidden">
+      <div class="footer-description">
+        <pre class="text-white bg-red-700 pt-3 text-center">
+            © 2024 IET DAVV. All Rights Reserved.
+            Made with 💙
+          </pre
+        >
+      </div>
+      <div class="contact-us"></div>
+    </footer>
+  </body>
+</html>

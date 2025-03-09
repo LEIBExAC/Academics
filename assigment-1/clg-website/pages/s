@@ -1,0 +1,39 @@
+<div class="container mx-auto mt-10 text-center">
+    <h1 class="text-3xl font-bold text-center mb-8">Forms-2022</h1>
+    <table class="min-w-full bg-white border border-gray-300">
+        <thead>
+            <tr>
+                <th class="py-2 px-4 border-b border-gray-300 text-left">Form Name</th>
+                <th class="py-2 px-4 border-b border-gray-300 text-right">Download</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="py-2 px-4 border-b border-gray-300 flex items-center">
+                    Student Internship Form (for BE IVyr Students) <span class="ml-2 text-red-500">NEW</span>
+                </td>
+                <td class="py-2 px-4 border-b border-gray-300 text-right">
+                    <button class="bg-gray-200 text-gray-700 py-1 px-3 rounded">Download</button>
+                </td>
+            </tr>
+            <tr>
+                <td class="py-2 px-4 border-b border-gray-300">College Leaving Certificate form</td>
+                <td class="py-2 px-4 border-b border-gray-300 text-right">
+                    <button class="bg-gray-200 text-gray-700 py-1 px-3 rounded">Download</button>
+                </td>
+            </tr>
+            <tr>
+                <td class="py-2 px-4 border-b border-gray-300">Caution Money Form</td>
+                <td class="py-2 px-4 border-b border-gray-300 text-right">
+                    <button class="bg-gray-200 text-gray-700 py-1 px-3 rounded">Download</button>
+                </td>
+            </tr>
+            <tr>
+                <td class="py-2 px-4 border-b border-gray-300">Application Form for CLC & Provisional Degree</td>
+                <td class="py-2 px-4 border-b border-gray-300 text-right">
+                    <button class="bg-gray-200 text-gray-700 py-1 px-3 rounded">Download</button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
