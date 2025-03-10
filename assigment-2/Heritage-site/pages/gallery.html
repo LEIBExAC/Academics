@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gallery - Gwalior Tourism</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="../src/style.css" />
+    <style>
+      /* Animation for image hover effect */
+      .gallery-item {
+        transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+      }
+
+      .gallery-item:hover {
+        transform: scale(1.05);
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+      }
+    </style>
+  </head>
+
+  <body>
+    <nav class="bg-stone-600 text-white p-4 rounded-b-lg">
+      <div class="container mx-auto flex justify-between items-center">
+        <h1 class="text-2xl font-bold">Gwalior Tourism</h1>
+        <div class="header-logo shadow-xl min-w-fit rounded-lg"></div>
+      </div>
+    </nav>
+
+    <div>
+      <ul class="flex space-x-4 bg-orange-50 justify-center p-2 gap-2">
+        <li><a href="index.html" class="hover:text-gray-500">Home</a></li>
+        <li>
+          <a href="heritage.html" class="hover:text-gray-500">Heritage</a>
+        </li>
+        <li>
+          <a href="hotel-booking.html" class="hover:text-gray-500"
+            >Hotel Booking</a
+          >
+        </li>
+        <li><a href="gallery.html" class="hover:text-gray-500">Gallery</a></li>
+      </ul>
+    </div>
+
+    <header
+      class="bg-cover bg-center h-96"
+      style="
+        background-image: url('../src/images/gwalior-fort.png');
+        background-attachment: fixed;
+      "
+    >
+      <div
+        class="bg-black bg-opacity-50 h-full flex items-center justify-center"
+      >
+        <h1 class="text-orange-50 text-4xl md:text-6xl font-bold">
+          Gwalior Heritage Sites - Gallery
+        </h1>
+      </div>
+    </header>
+
+    <main class="max-w-7xl mx-auto p-6">
+      <section class="mb-8">
+        <h2 class="text-3xl font-semibold text-center">
+          Explore Gwalior Heritage
+        </h2>
+        <p class="mt-4 text-center">
+          A collection of beautiful photos showcasing the iconic heritage sites
+          of Gwalior. Click on the images to learn more about each site.
+        </p>
+      </section>
+
+      <section
+        class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6"
+      >
+        <div class="gallery-item">
+          <a href="../pages/heritage-sites/jai-vilas-palace.html">
+            <img
+              src="../src/images/heritage-sites/jai-vilas-palace.png"
+              alt="Jai Vilas Palace"
+              class="w-full h-72 object-cover rounded-lg shadow-lg transform hover:scale-105 transition-all duration-300"
+            />
+          </a>
+        </div>
+
+        <div class="gallery-item">
+          <a href="../pages/heritage-sites/tansen-tomb.html">
+            <img
+              src="../src/images/tansen-tomb/tansen-tomb-night.png"
+              alt="Tansen's Tomb"
+              class="w-full h-72 object-cover rounded-lg shadow-lg transform hover:scale-105 transition-all duration-300"
+            />
+          </a>
+        </div>
+
+        <div class="gallery-item">
+          <a href="../pages/heritage-sites/sun-temple.html">
+            <img
+              src="../src/images/sun-temple/sun-temple-idol.png"
+              alt="Sun Temple"
+              class="w-full h-72 object-cover rounded-lg shadow-lg transform hover:scale-105 transition-all duration-300"
+            />
+          </a>
+        </div>
+
+        <div class="gallery-item">
+          <a href="../pages/heritage-sites/sun-temple.html">
+            <img
+              src="../src/images/sun-temple/sun-temple.png"
+              alt="Sun Temple"
+              class="w-full h-72 object-cover rounded-lg shadow-lg transform hover:scale-105 transition-all duration-300"
+            />
+          </a>
+        </div>
+
+        <div class="gallery-item">
+          <a href="../pages/heritage-sites/sun-temple.html">
+            <img
+              src="../src/images/sun-temple/sun-temple2.png"
+              alt="Sun Temple"
+              class="w-full h-72 object-cover rounded-lg shadow-lg transform hover:scale-105 transition-all duration-300"
+            />
+          </a>
+        </div>
+
+        <div class="gallery-item">
+          <a href="../pages/heritage-sites/sas-bahu-temple.html">
+            <img
+              src="../src/images/sas-bahu-temple/sas-temple.jpg"
+              alt="Sas Bahu Temple"
+              class="w-full h-72 object-cover rounded-lg shadow-lg transform hover:scale-105 transition-all duration-300"
+            />
+          </a>
+        </div>
+
+        <div class="gallery-item">
+          <a href="../pages/heritage-sites/gujari-mahal.html">
+            <img
+              src="../src/images/heritage-sites/Gujari-mahal-panoramio.jpg"
+              alt="Gujri Mahal"
+              class="w-full h-72 object-cover rounded-lg shadow-lg transform hover:scale-105 transition-all duration-300"
+            />
+          </a>
+        </div>
+
+        <div class="gallery-item">
+          <a href="../pages/heritage-sites/man-singh-palace.html">
+            <img
+              src="../src/images/heritage-sites/man-singh-palace.png"
+              alt="Man Singh Palace"
+              class="w-full h-72 object-cover rounded-lg shadow-lg transform hover:scale-105 transition-all duration-300"
+            />
+          </a>
+        </div>
+
+        <div class="gallery-item">
+          <a href="../pages/heritage-sites/tigra-dam.html">
+            <img
+              src="../src/images/heritage-sites/tira-dam-left-side-view.jpg"
+              alt="Tigra Dam"
+              class="w-full h-72 object-cover rounded-lg shadow-lg transform hover:scale-105 transition-all duration-300"
+            />
+          </a>
+        </div>
+
+        <div class="gallery-item">
+          <a href="../pages/heritage-sites/data-bandi-chor.html">
+            <img
+              src="../src/images/heritage-sites/data-bandi-chor-gurudwara.png"
+              alt="Data Bandi Chodd"
+              class="w-full h-72 object-cover rounded-lg shadow-lg transform hover:scale-105 transition-all duration-300"
+            />
+          </a>
+        </div>
+
+        <div class="gallery-item">
+          <a href="../pages/heritage-sites/suraj-kund.html">
+            <img
+              src="../src/images/suraj-kund/suraj-kund-closeup.png"
+              alt="Suraj Kund"
+              class="w-full h-72 object-cover rounded-lg shadow-lg transform hover:scale-105 transition-all duration-300"
+            />
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="bg-stone-600 text-white text-center rounded-t-lg py-4">
+      <p>&copy; 2025 Gwalior Tourism. All rights reserved.</p>
+      <p>Made with 💙</p>
+      <p>~ By AC(yuno)</p>
+    </footer>
+  </body>
+</html>

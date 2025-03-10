@@ -3,14 +3,130 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="../src/style.css" />
+    <title>Gwalior Tourism</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="../src/style.css" />
   </head>
-  <body>
-    <!-- Will use Tailwind but as minimum as possible -->
-    <header></header>
-    <section></section>
-    <footer></footer>
+
+  <body class="bg-gray-100">
+    <nav class="bg-stone-600 text-white p-4 rounded-b-lg">
+      <div class="container mx-auto flex justify-between items-center">
+        <h1 class="text-2xl font-bold">Gwalior Tourism</h1>
+        <div class="header-logo shadow-xl min-w-fit rounded-lg"></div>
+      </div>
+    </nav>
+
+    <div>
+      <ul class="flex space-x-4 bg-orange-50 justify-center p-2 gap-2">
+        <li><a href="index.html" class="hover:text-gray-500">Home</a></li>
+        <li>
+          <a href="heritage.html" class="hover:text-gray-500">Heritage</a>
+        </li>
+        <li>
+          <a href="hotel-booking.html" class="hover:text-gray-500"
+            >Hotel Booking</a
+          >
+        </li>
+        <li><a href="gallery.html" class="hover:text-gray-500">Gallery</a></li>
+      </ul>
+    </div>
+
+    <header
+      class="bg-cover bg-center h-96"
+      style="
+        background-image: url('../src/images/gwalior-fort.png');
+        background-attachment: fixed;
+      "
+    >
+      <div
+        class="bg-black bg-opacity-50 h-full flex items-center justify-center"
+      >
+        <h1 class="text-orange-50 text-4xl md:text-6xl font-bold">
+          Welcome to Gwalior
+        </h1>
+      </div>
+    </header>
+
+    <section class="container mx-auto py-8">
+      <h2 class="text-3xl font-bold text-center mb-6">
+        Explore the Beauty of Gwalior
+      </h2>
+      <p class="text-lg text-gray-700 text-center px-4">
+        Gwalior, a city rich in history and culture, is home to magnificent
+        forts, palaces, and temples. Discover its fascinating heritage,
+        experience its warm hospitality, and make memories that last forever.
+      </p>
+
+      <div class="mt-8 px-4 gap-4 flex">
+        <!-- <h2 class="text-2xl font-bold text-center mb-4">Welcome to Gwalior</h2> -->
+        <p class="text-lg text-gray-700 text-center">
+          Gwalior – the city where history, culture, and architectural
+          brilliance converge. Nestled in the heart of Madhya Pradesh, Gwalior
+          is renowned for its majestic forts, palaces, and temples that stand as
+          timeless testaments to its rich and glorious past. The iconic Gwalior
+          Fort, often referred to as the "Gibraltar of India," dominates the
+          skyline and narrates tales of bravery and royalty. From the intricate
+          craftsmanship of the Sas Bahu Temple to the grandeur of Jai Vilas
+          Palace, Gwalior's heritage sites showcase the magnificence of ancient
+          Indian art and architecture. Explore this vibrant city, where every
+          stone tells a story and every corner echoes the essence of India's
+          regal legacy.
+        </p>
+
+        <img
+          src="../src/images/temple.png"
+          class="h-64 rounded-lg shadow-lg min-w-fit -rotate-6"
+          alt="Temple Image"
+        />
+      </div>
+    </section>
+
+    <hr class="mx-6 my-4" />
+
+    <section class="container mx-auto py-8">
+      <div class="flex justify-center relative mb-28">
+        <div
+          class="p-4 border-2 rounded-lg border-gray-600 bg-white relative hover:z-10 left-24 shadow-xl min-w-fit rotate-2 transform transition-transform duration-300 hover:scale-105"
+        >
+          <img
+            src="../src/images/stacked-images/01.png"
+            alt="Image1"
+            class="max-h-80 rounded-lg shadow-lg min-w-fit"
+          />
+        </div>
+
+        <div
+          class="p-4 border-2 rounded-lg border-gray-600 bg-white relative top-12 shadow-xl min-w-fit -rotate-2 transform transition-transform duration-300 hover:scale-105 hover:z-10"
+        >
+          <img
+            src="../src/images/stacked-images/02.png"
+            alt="Image2"
+            class="max-h-80 rounded-lg shadow-lg min-w-fit"
+          />
+        </div>
+
+        <div
+          class="p-4 border-2 rounded-lg border-gray-600 bg-white relative -left-28 top-24 shadow-xl min-w-fit -rotate-3 transform transition-transform duration-300 hover:scale-105 hover:z-10"
+        >
+          <img
+            src="../src/images/stacked-images/03.png"
+            alt="Image3"
+            class="max-h-80 rounded-lg shadow-lg min-w-fit"
+          />
+        </div>
+      </div>
+
+      <div class="text-center pt-5 text-4xl">
+        <h2><b>Glimpses of Gwalior Sites</b></h2>
+      </div>
+    </section>
+
+    <hr />
+
+    <footer class="bg-stone-600 text-white text-center py-4">
+      <p>&copy; 2025 Gwalior Tourism. All rights reserved.</p>
+      <p>Made with 💙</p>
+      <p>~ By AC(yuno)</p>
+    </footer>
   </body>
 </html>
