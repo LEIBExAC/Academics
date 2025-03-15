@@ -8,8 +8,22 @@
   font-size: 14px;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: #f0eeee;
+  animation: fadeIn 500ms ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 header {
@@ -86,6 +100,7 @@ header {
 }
 
 .get-started button {
+  transition: background-color 0.3s ease, transform 0.3s ease;
   padding: 0.75rem;
   border-radius: 1rem;
   color: aliceblue;
@@ -93,6 +108,7 @@ header {
 }
 
 .get-started button:hover {
+  /* transform: scale(1.05); */
   background-color: #0c0c0c;
 }
 
@@ -195,8 +211,8 @@ footer {
   align-items: center;
   justify-content: center;
   background-color: #bebcbc59;
-margin-top: 2rem;
-box-shadow: #0c0c0c 0px -2px 3px;
+  margin-top: 2rem;
+  box-shadow: #0c0c0c 0px -2px 3px;
   /* padding: 1rem; */
 }
 
@@ -227,4 +243,41 @@ box-shadow: #0c0c0c 0px -2px 3px;
   width: 100%;
   /* background-color: #bebcbc59; */
   font-weight: 600;
+}
+
+.relative-container {
+  position: relative;
+  /* height: 6rem;
+  width: 6rem; */
+}
+
+.relative-container img {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  height: 6rem;
+  width: 6rem;
+  opacity: 0.5;
+}
+
+.image-gallery {
+  position: relative;
+}
+
+.image-gallery img {
+  position: relative;
+  margin: 10px;
+  height: 6rem;
+  width: 6rem;
+}
+
+.hover-image:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+}
+
+button:hover {
+  background-color: #555;
+  color: white;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
