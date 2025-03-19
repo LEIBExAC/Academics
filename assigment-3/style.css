@@ -183,12 +183,14 @@ header {
   font-size: 1.5rem;
   font-weight: 600;
   margin: 0.65rem;
+  margin-bottom: 0.95rem;
   border: #141414 solid 2px;
   box-shadow: #1f1919 3px 3px 3px;
 }
 
 .section-one h2,
-.section-two h2 {
+.section-two h2,
+.section-three h2 {
   font-size: 2rem;
   font-weight: 700;
 }
@@ -199,8 +201,81 @@ header {
   font-size: 1rem;
   font-weight: 300;
   margin: 0.65rem;
+  margin-bottom: 0.95rem;
   border: #141414 dotted 2px;
   box-shadow: #1f1919 3px 3px 3px;
+}
+
+.section-three {
+  padding: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  font-weight: 300;
+  margin: 0.65rem;
+  margin-bottom: 0.95rem;
+  border: #141414 ridge 4px;
+  box-shadow: #1f1919 3px 3px 3px;
+}
+
+.relative-container {
+  position: relative;
+  /* height: 6rem;
+  width: 6rem; */
+  display: flex;
+  justify-items: center;
+}
+
+.relative-container p {
+  position: relative;
+  /* height: 6rem;
+  width: 6rem; */
+  margin-left: 8rem;
+  margin-right: 8rem;
+  text-justify: newspaper;
+  margin-bottom: 1rem;
+}
+
+.relative-container .img1 {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  height: 6rem;
+  width: 6rem;
+  /* opacity: 0.5; */
+}
+
+.relative-container .img2 {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  height: 6rem;
+  width: 6rem;
+  /* opacity: 0.5; */
+}
+
+.image-gallery {
+  position: relative;
+  display: flex;
+  /* flex-direction: column; */
+  justify-items: center;
+}
+
+.image-gallery img {
+  position: relative;
+  margin: 10px;
+  height: 6rem;
+  width: 6rem;
+}
+
+.hover-image:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+}
+
+button:hover {
+  background-color: #555;
+  color: white;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 /* footer*/
@@ -243,41 +318,4 @@ footer {
   width: 100%;
   /* background-color: #bebcbc59; */
   font-weight: 600;
-}
-
-.relative-container {
-  position: relative;
-  /* height: 6rem;
-  width: 6rem; */
-}
-
-.relative-container img {
-  position: absolute;
-  top: 10px;
-  right: 10px;
-  height: 6rem;
-  width: 6rem;
-  opacity: 0.5;
-}
-
-.image-gallery {
-  position: relative;
-}
-
-.image-gallery img {
-  position: relative;
-  margin: 10px;
-  height: 6rem;
-  width: 6rem;
-}
-
-.hover-image:hover {
-  transform: scale(1.1);
-  transition: transform 0.3s ease;
-}
-
-button:hover {
-  background-color: #555;
-  color: white;
-  transition: background-color 0.3s ease, color 0.3s ease;
 }
